@@ -1,5 +1,47 @@
 .sidebar {
+  position: relative;
   width: 81.5px;
   height: 100%;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   border-right: #645f5f solid 1px;
+}
+
+.sidebar-scroll-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-scroll {
+  color: #9f9f9f;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  transform: rotate(90deg) translateX(-40.5px) translateY(-2px);
+}
+
+.sidebar-scroll-arrow {
+  cursor: pointer;
+}
+
+.sidebar-menu-icon {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 30px;
+  top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  cursor: pointer;
+}
+
+.sidebar-menu-square {
+  display: block;
+  width: 5.24px;
+  height: 5.24px;
+  background: #ffffff;
 }

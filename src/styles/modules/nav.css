@@ -1,0 +1,10 @@
+.nav {
+  position: relative;
+  left: -81.5px;
+  width: calc(100% + 81.5px);
+  height: 79px;
+  padding-left: 165.5px;
+  padding-top: 30px;
+  border-bottom: #645f5f solid 1px;
+  color: red;
+}
