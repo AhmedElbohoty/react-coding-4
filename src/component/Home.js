@@ -7,11 +7,11 @@ function Home() {
   return (
     <section id="l-home">
       <div className="home-background-container">
-        <img
+        {/* <img
           className="home-background"
           src={background}
           alt="Red car on the road"
-        />
+        /> */}
       </div>
 
       {/* Gradients for background */}
