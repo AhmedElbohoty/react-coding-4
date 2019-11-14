@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./sidebar/Sidebar";
-import Nav from "./Nav";
+import Nav from "./nav/Nav";
 
 import background from "../assets/images/background.png";
 

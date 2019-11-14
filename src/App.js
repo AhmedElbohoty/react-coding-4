@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <section className="App">
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
       </section>
     </BrowserRouter>
   );
