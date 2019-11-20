@@ -37,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   cursor: pointer;
+  z-index: 1;
 }
 
 .sidebar-menu-square {
@@ -44,4 +45,45 @@
   width: 5.24px;
   height: 5.24px;
   background: #ffffff;
+  opacity: 1;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.sidebar-menu-icon:hover .sidebar-menu-square {
+  animation-name: opacity;
+}
+
+.sidebar-menu-square:nth-child(2),
+.sidebar-menu-square:nth-child(4) {
+  animation-duration: 700ms;
+}
+
+.sidebar-menu-square:nth-child(3),
+.sidebar-menu-square:nth-child(5) {
+  animation-duration: 900ms;
+}
+
+.sidebar-menu-square:nth-child(6),
+.sidebar-menu-square:nth-child(7) {
+  animation-duration: 1100ms;
+}
+
+.sidebar-menu-square:nth-child(8) {
+  animation-duration: 1300ms;
+}
+
+.sidebar-menu-square:nth-child(9) {
+  animation-duration: 1500ms;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

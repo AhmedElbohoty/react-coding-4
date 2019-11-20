@@ -7,6 +7,7 @@ import "./styles/layout.css";
 import "./styles/modules/home.css";
 import "./styles/modules/sidebar.css";
 import "./styles/modules/nav.css";
+import "./styles/modules/main.css";
 
 function App() {
   return (

@@ -39,8 +39,12 @@
   color: #ffffff;
 }
 
-.nav-search-input:focus .nav-search-icon {
-  opacity: 0.1;
+.nav-search-icon {
+  transition: transform ease-in-out 500ms;
+}
+
+.nav-search-icon-focus {
+  transform: scale(-1, 1);
 }
 
 /* #region link transition */
